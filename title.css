@@ -1,0 +1,141 @@
+/* 타이틀1영역 */
+div#title{
+  padding: 0 80px;
+  margin-top: 100px;
+}
+div#title div.flex{
+  flex-direction: column;
+}
+div#title div.flex h2{
+  text-align: center;
+  padding: 0 30px;
+  margin-top: 60px;
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 500;
+}
+div#title div.flex ul{
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+div#title div.flex ul li{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  margin-top: 16px;
+  text-align: center;
+}
+div#title div.flex ul li a::before{
+  content:"";
+  display: block;
+  width: 428px;
+  height: 558px;
+  margin: 10px;
+}
+div#title div.flex ul li:nth-child(1) a::before{
+  background-image: url(../img/t1.jpg);
+}
+div#title div.flex ul li:nth-child(2) a::before{
+  background-image: url(../img/t2.jpg);
+}
+div#title div.flex ul li:nth-child(3) a::before{
+  background-image: url(../img/t3.jpg);
+}
+div#title div.flex ul li:nth-child(4) a::before{
+  background-image: url(../img/t4.jpg);
+}
+/* 타이틀2영역 */
+div#title2{
+  margin-top: 100px;
+}
+div#title2 div.img{
+
+}
+div#title2 div.img figure{
+
+}
+div#title2 div.flex{
+  flex-direction: column;
+  padding: 79px 150px 60px;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  width: 100%;
+}
+div#title2 div.flex .text{
+  text-align: center;
+  max-width: 520px;
+  margin: 0 auto 32px;
+}
+div#title2 div.flex .text h2{
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 500;
+}
+div#title2 div.flex .text p{
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #888;
+  margin-top: 10px;
+}
+div#title2 div.flex ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  position: relative;
+}
+div#title2 div.flex ul::before{
+  content:"";
+  background-image: url(../img/back.svg);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: -65px;
+  top: calc(50% - 12px);
+}
+div#title2 div.flex ul::after{
+   content:"";
+  background-image: url(../img/forward.svg);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right:-65px;
+  top: calc(50% - 12px);
+}
+div#title2 div.flex ul li{
+
+  line-height: 1.5;
+}
+div#title2 div.flex ul li a{
+
+}
+div#title2 div.flex ul li a::before{
+  content:"";
+  display: block;
+  width: 265px;
+  height: 350px;
+  background-size: cover;
+}
+div#title2 div.flex ul li:nth-child(1) a::before{
+  background-image: url(../img/t6.jpg);
+}
+div#title2 div.flex ul li:nth-child(2) a::before{
+  background-image: url(../img/t7.jpg);
+}
+div#title2 div.flex ul li a span{
+  
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+}
+div#title2 div.flex div{  
+  margin-top: 50px;
+  text-align: center;
+}
+div#title2 div.flex div a{
+  font-weight: 400;
+  line-height: 40px;
+  padding: 0 30px;
+  border: 1px solid #D1D1D1;
+}

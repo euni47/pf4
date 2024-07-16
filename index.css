@@ -1,0 +1,167 @@
+main{
+
+}
+section#main1{
+  position: relative;
+}
+section#main1 article.grid{
+  padding-left: 80px;
+}
+section#main1 article.grid div{
+  margin-top: 100px;
+  position: relative;
+}
+section#main1 article.grid div h3{
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 500;
+  color: #191919;
+}
+section#main1 article.grid div p{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #888;
+  margin-top: 10px;
+}
+section#main1 article.grid div a{
+  
+}
+section#main1 article.grid div:nth-child(1) a{
+  width: 120px;
+  height: 42px;
+  line-height: 40px;
+  border: 1px solid #D1D1D1;
+  margin-top: 32px;
+  font-weight: 400;
+  color: #191919;
+  text-align: center;
+}
+section#main1  article.grid div ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 80px;
+  position: absolute;
+  transform: translate3d(330px,-260px,0);
+  column-gap: 10px;
+  width: calc(100% - 444px);
+}  
+section#main1 article.grid div ul li{
+  
+}
+section#main1 article.grid div ul li a{ 
+  font-size: 14px;
+  line-height: 22px;
+  margin-top: 16px;
+  font-weight: 500;
+  color: #191919;
+}
+section#main1 article.grid div ul li a:before{
+  content:"";
+  display: block;
+  width: 400px;
+  height: 500px;
+  background-position: center;
+  background-size: contain;
+}
+section#main1 article.grid div ul li:nth-child(1) a:before{
+  background-image: url(../img/t8.jpg);  
+}
+section#main1 article.grid div ul li:nth-child(2) a:before{
+  background-image: url(../img/t9.jpg);
+}
+section#main1 article.grid div ul li:nth-child(3) a:before{
+  background-image: url(../img/t10.jpg);
+}
+section#main2{
+  padding-top: 300px;
+}
+section#main2 article.flex{
+  margin-top: 100px;
+  width: 1900px;
+  flex-direction: column;
+}
+section#main2 article.flex p{
+  border-top: 1px solid #EEE;
+  border-bottom: 1px solid #EEE;
+  padding: 22px 0;
+}
+section#main2 article.flex div{
+  background-color: #191919;
+  padding: 90px 80px 80px;
+}
+section#main2 article.flex div h3{
+  color: #fff;
+  text-align: center;
+  padding: 0 30px;
+  margin-bottom: 32px;
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 500;
+}
+section#main2 article.flex div ul{
+  display: flex;
+}
+section#main2 article.flex div ul figure{
+}
+section#main2 article.flex div ul figure img{
+  width: fit-content;
+  height: 470px;
+}
+section#main2 article.flex div ul li{ 
+  color: #fff;
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  transform: translate3d(-436px,480px,0 );
+}
+section#main3{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0 80px;
+  margin-top: 100px;
+  gap: 15px;
+}
+section#main3 div{
+  
+}
+section#main3 div ul{
+  width: fit-content;
+  text-align: center;
+  margin: 20px auto 0;
+  flex-direction: column;
+  justify-content: center;
+}
+section#main3 div#c ul li:nth-child(1):before{
+  content:"";
+  display: block;
+  background-image: url(../img/m1.jpg);
+  width:860px;
+  height: 360px;
+}
+section#main3 div#d ul li:nth-child(1):before{
+  content:"";
+  display: block;
+  background-image: url(../img/m2.jpg);
+  width:860px;
+  height: 360px;
+}
+section#main3 div ul li:nth-child(1){
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 34px;
+  margin-bottom: 10px;
+}
+section#main3 div ul li:nth-child(2){
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #888;
+}
+section#main3 div ul a{
+  border-bottom: 1px solid;
+  margin: 0 auto;
+  display: flex;
+}
